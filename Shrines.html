@@ -1,0 +1,253 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryte's Coffee ☕</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="favicon.ico"/>
+</head>
+<div id="container" style="border: solid; border-color: #5fa8ff;">
+    <div id="headerArea">
+        <nav id="navbar">
+            <center><img src="Images/SiteDecor/Logo.webp" width=30%></center>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="#">Shrines</a></li>
+                <li><a href="WindowsMods.html">Windows Modding</a></li>
+                <li><a href="Credits.html">Credits</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main><center>These buttons do nothing atm but heres what I intend on making shrines for :></center></main>
+    <div id="flex"><a href="#"><div class="boxDR"><center><img src="Images/SiteDecor/Deltarune/Logo1.png" width="90%"></center><img src="Images/SiteDecor/Deltarune/Logo2.png" width="100%"></div></a> <a href="#"><div class="boxAdv"><br><br><br><br><br><br><img src="Images/SiteDecor/AdventureTime/ADV.png" width="100%"></div></a> <a href="#"><div class="boxFN"><br><br><br><br><br><br><br><img src="Images/SiteDecor/Fortnite/Logo.png" width="100%"></div></a></div>
+    <div id="flex"><a href="#"><div class="boxHalo"><br><br><br><br><br><br><img src="Images/SiteDecor/Halo/Logo.webp" width="100%"></div></a> <a href="#"><div class="boxRL"><br><br><br><br><br><br><img src="Images/SiteDecor/RocketLeague/Logo.webp" width="100%"></div></a> <a href="#"><div class="boxSV"><br><br><br><br><br><br><img src="Images/SiteDecor/StardewValley/Logo.webp" width="100%"></div></a></div>
+    <main>
+        <p>It may be best to view this page on a Chromium browser. On Firefox specifically linking stuff to another page with previews or sourcing images for things just show up as empty boxes. BUT the links still work.</p>
+    </main>
+<footer id="footer"><br>BryteFryte | 2025</footer>
+<style>
+
+                    /*---This is font related code---*/
+
+    @font-face {
+        font-family: MelonCamp;
+        src: url('Fonts/MelonCamp.ttf')
+    }
+
+    @font-face {
+        font-family: Deltarune;
+        src: url('Fonts/PixelOperator.ttf')
+    }
+
+                    /*---This is main container related code---*/
+
+    main {
+        background-color: #000b1a;
+        flex: 1;
+        padding: 20px;
+        order: 2;
+        display: flex;
+    }
+
+    body {
+        font-family: MelonCamp;
+        font-size: 20px;
+        margin: 0;
+        background-image: url(Images/SiteDecor/giphy.gif);
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    #container {
+        max-width: 900px;
+        min-width: 900px;
+        margin: 0 auto;
+    }
+
+    #container a {
+        color: #6496f5;
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: #0d1126;
+        width: 900px;
+        height: 60px;
+        text-align: center;
+    }
+
+    #flex {
+        padding: 10px;
+        display: flex;
+        background-color: #000b1a;
+        max-width: 880px;
+        min-width: 880px;
+    }
+
+                    /*---This is navigation bar related code---*/
+
+    #navbar {
+        height: 180px;
+        background-color: #0d1126;
+        width: 100%;
+            }
+
+    #navbar ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        justify-content: space-evenly;
+        text-decoration: solid;
+    }
+
+    #navbar li {
+        padding-top: 20px;
+    }
+
+    #navbar li a {
+        color: #ffffff;
+        font-weight: 900;
+        text-decoration: none;
+    }
+
+    #navbar li a:hover {
+        color: #797192;
+    }
+
+                    /*---This is image related code---*/
+
+    .leftimg {
+        float: left;
+    }
+
+    .rightimg {
+        float: right;
+        clip-path: circle(50%);
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 5vw);
+        grid-gap: 15px;
+    }
+
+    aside {
+        font-size: 200px;
+        padding: 5px;
+        font-size: smaller;
+        color: beige;
+    }
+
+    #leftSidebar {
+        order: 1;
+    }
+
+    #rightSidebar {
+        order: 3;
+    }
+
+    h1 {
+        color: aqua;
+    }
+    h2,
+    h3 {
+        color: #ffffff;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    strong {
+        color: #ffffff;
+    }
+
+
+    .box {
+        background-color: #13092D;
+        border: 1px solid #ED64F5;
+        padding: 10px;
+        width: 200px;
+        height: 200px;
+    }
+
+   .boxDR {
+        background-color: #13092D;
+        border: 1px solid #ED64F5;
+        padding: 20px;
+        background-image: url(Images/SiteDecor/Deltarune/Background.gif);
+        width: 250px;
+        height: 250px;
+        font-family: Deltarune;
+    }
+
+   .boxFN {
+        background-color: #13092D;
+        border: 1px solid #ffffff;
+        padding: 20px;
+        background-image: url(Images/SiteDecor/Fortnite/Chapter7.gif);
+        width: 250px;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+   .boxAdv {
+        background-color: #236eba;
+        border: 1px solid #ffbb00;
+        padding: 20px;
+        background-image: url(Images/SiteDecor/AdventureTime/FinnFionna.gif);
+        width: 250px;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+   .boxHalo {
+        background-color: #236eba;
+        border: 1px solid #00ff28;
+        padding: 20px;
+        background-image: url(Images/SiteDecor/Halo/MasterChief.gif);
+        width: 250px;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+   .boxRL {
+        background-color: #236eba;
+        border: 1px solid #ff0000;
+        padding: 20px;
+        background-image: url(Images/SiteDecor/RocketLeague/Background.gif);
+        width: 250px;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+   .boxSV {
+        background-color: #236eba;
+        border: 1px solid #1e8500;
+        padding: 20px;
+        background-image: url(Images/SiteDecor/StardewValley/Background.gif);
+        width: 250px;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+        aside {
+            width: 100%;
+        }
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
+        </style>

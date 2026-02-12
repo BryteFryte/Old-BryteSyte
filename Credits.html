@@ -1,0 +1,224 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryte's Coffee ☕</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="favicon.ico"/>
+</head>
+<div id="container" style="border: solid; border-color: #260d0d;">
+    <div id="headerArea">
+        <nav id="navbar">
+            <center><img src="Images/SiteDecor/Logo.webp" width=30%></center>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Shrines.html">Shrines</a></li>
+                <li><a href="WindowsMods.html">Windows Modding</a></li>
+                <li><a href="Credits.html">Credits</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="flex">
+        <main>
+            <center><h1>Credit's</h1></center>
+            <p>For all the pages, I learned my code from <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools</a>, and borrowed some of the code from <a href="https://sadgrlonline.github.io/archived-sadgrl.online/projects/layout-builder/" target="_blank">Sadgrl's Online Layout Template</a></p>
+            <br>
+            <h1>Images</h1>
+            <p>For the Deltarune Shrine, I got all of my gifs from <a href="https://tenor.com/search/deltarune-gifs" target="_blank">Tenor</a>.</p>
+            <p>TV Static on Shrines can be found <a href="https://giphy.com/gifs/first-day-of-camp-wet-hot-american-summer-XuBNdP9Pb7W9i" target="_blank">here</a>.</p>
+            <p>Connecting Squares background on the Shrines tab can be found <a href="https://giphy.com/gifs/animation-animated-gif-xTiTnxpQ3ghPiB2Hp6" target="_blank">here</a>.</p>
+            <br>
+            <h1>Fonts</h1>
+            <p>The main font used is called Melon Camp! It can be found <a href="https://www.dafont.com/melon-camp.font" target="_blank">here</a>.</p>
+            <p>The font used in the updates box on the homepage is called Maple Mono! It can be found <a href="https://github.com/subframe7536/Maple-font" target="_blank">here</a>.</p>
+            <p>The font used on the Windows Modding page is called Segoe! You can find it <a href="https://archive.org/details/seguisb" target="_blank">here</a>.</p>
+            <br>
+        </main>
+    </div>
+    <footer id="footer"><br>BryteFryte | 2025</footer>
+</div>
+<style>
+
+                    /*---This is font related code---*/
+
+    @font-face {
+        font-family: MelonCamp;
+        src: url('Fonts/MelonCamp.ttf')
+    }
+
+    @font-face {
+        font-family: Deltarune;
+        src: url('Fonts/PixelOperator.ttf')
+    }
+
+                    /*---This is main container related code---*/
+
+    main {
+        background-color: #46121e;
+        flex: 1;
+        padding: 20px;
+        order: 2;
+        border: solid;
+    }
+
+    body {
+        font-family: MelonCamp;
+        font-size: 20px;
+        margin: 0;
+        background-image: url(Images/SiteDecor/Stars.png);
+        background-color: #4d1414;
+        color: #fff9ea;
+    }
+
+    #container {
+        max-width: 900px;
+        min-width: 900px;
+        margin: 0 auto;
+    }
+
+    #container a {
+        color: #d5508d;
+        text-decoration: underline;
+    }
+
+    footer {
+        background-color: #260d0d;
+        width: 900px;
+        height: 60px;
+        text-align: center;
+    }
+
+    #flex {
+        padding: 10px;
+        display: flex;
+        background-color: #621c1c;
+    }
+
+                    /*---This is navigation bar related code---*/
+
+    #navbar {
+        height: 180px;
+        background-color: #260d0d;
+        width: 100%;
+            }
+
+    #navbar ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        justify-content: space-evenly;
+        text-decoration: solid;
+    }
+
+    #navbar li {
+        padding-top: 20px;
+    }
+
+    #navbar li a {
+        color: #ffffff;
+        font-weight: 900;
+        text-decoration: none;
+    }
+
+    #navbar li a:hover {
+        color: #797192;
+    }
+
+                    /*---This is image related code---*/
+
+    .leftimg {
+        float: left;
+    }
+
+    .rightimg {
+        float: right;
+        clip-path: circle(50%);
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 5vw);
+        grid-gap: 15px;
+    }
+
+    aside {
+        font-size: 200px;
+        padding: 5px;
+        font-size: smaller;
+        color: beige;
+    }
+    #leftSidebar {
+        order: 1;
+    }
+
+    #rightSidebar {
+        order: 3;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: #f57564;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    strong {
+        color: #ffffff;
+    }
+
+
+    .box {
+        background-color: #13092D;
+        border: 1px solid #ED64F5;
+        padding: 10px;
+    }
+
+    .boxUpdate {
+        background-color: #ececec;
+        border: 3px solid #9f0000;
+        padding: 10px;
+        color: #000000;
+        font-size: large;
+        border-radius: 8px;
+        overflow: auto;
+        height: 200px;
+    }
+
+   .boxDR {
+        background-color: #13092D;
+        border: 1px solid #ED64F5;
+        padding: 20px;
+        background-image: url(Images/SiteDecor/Deltarune/Background.gif);
+        width: 800px;
+        height: 150px;
+        font-family: Deltarune;
+    }
+
+   .boxFN {
+        background-color: #13092D;
+        border: 1px solid #ffffff;
+        padding: 20px;
+        background-image: url(Images/SiteDecor/Fortnite/TheTree.gif);
+        width: 800px;
+        height: 150px;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+
+        aside {
+            width: 100%;
+        }
+
+
+        #navbar ul {
+            flex-wrap: wrap;
+        }
+        </style>
+
+    

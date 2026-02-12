@@ -1,0 +1,213 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryte's Coffee ☕</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="favicon.ico"/>
+</head>
+<div id="container" style="border: solid; border-color: #260d0d;">
+    <div id="headerArea">
+        <nav id="navbar">
+            <center><img src="Images/SiteDecor/Logo.webp" width=30%></center>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Shrines.html">Shrines</a></li>
+                <li><a href="WindowsMods.html">Windows Modding</a></li>
+                <li><a href="Credits.html">Credits</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="flex">
+        <main>
+            <center><h1>Sorry, the page you're looking for is not found :(</h1></center>
+        </main>
+    </div>
+    <footer id="footer"><br>BryteFryte | 2025</footer>
+</div>
+<style>
+
+                    /*---This is font related code---*/
+
+    @font-face {
+        font-family: MelonCamp;
+        src: url('Fonts/MelonCamp.ttf')
+    }
+
+    @font-face {
+        font-family: Deltarune;
+        src: url('Fonts/PixelOperator.ttf')
+    }
+
+                    /*---This is main container related code---*/
+
+    main {
+        background-color: #46121e;
+        flex: 1;
+        padding: 20px;
+        order: 2;
+        border: solid;
+    }
+
+    body {
+        font-family: MelonCamp;
+        font-size: 20px;
+        margin: 0;
+        background-image: url(Images/SiteDecor/Stars.png);
+        background-color: #4d1414;
+        color: #fff9ea;
+    }
+
+    #container {
+        max-width: 900px;
+        min-width: 900px;
+        margin: 0 auto;
+    }
+
+    #container a {
+        color: #ED64F5;
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: #260d0d;
+        width: 900px;
+        height: 60px;
+        text-align: center;
+    }
+
+    #flex {
+        padding: 10px;
+        display: flex;
+        background-color: #621c1c;
+    }
+
+                    /*---This is navigation bar related code---*/
+
+    #navbar {
+        height: 180px;
+        background-color: #260d0d;
+        width: 100%;
+            }
+
+    #navbar ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        justify-content: space-evenly;
+        text-decoration: solid;
+    }
+
+    #navbar li {
+        padding-top: 20px;
+    }
+
+    #navbar li a {
+        color: #ffffff;
+        font-weight: 900;
+        text-decoration: none;
+    }
+
+    #navbar li a:hover {
+        color: #797192;
+    }
+
+                    /*---This is image related code---*/
+
+    .leftimg {
+        float: left;
+    }
+
+    .rightimg {
+        float: right;
+        clip-path: circle(50%);
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 5vw);
+        grid-gap: 15px;
+    }
+
+    aside {
+        font-size: 200px;
+        padding: 5px;
+        font-size: smaller;
+        color: beige;
+    }
+    #leftSidebar {
+        order: 1;
+    }
+
+    #rightSidebar {
+        order: 3;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: #f57564;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    strong {
+        color: #ffffff;
+    }
+
+
+    .box {
+        background-color: #13092D;
+        border: 1px solid #ED64F5;
+        padding: 10px;
+    }
+
+    .boxUpdate {
+        background-color: #ececec;
+        border: 3px solid #9f0000;
+        padding: 10px;
+        color: #000000;
+        font-size: large;
+        border-radius: 8px;
+        overflow: auto;
+        height: 200px;
+    }
+
+   .boxDR {
+        background-color: #13092D;
+        border: 1px solid #ED64F5;
+        padding: 20px;
+        background-image: url(Images/SiteDecor/Deltarune/Background.gif);
+        width: 800px;
+        height: 150px;
+        font-family: Deltarune;
+    }
+
+   .boxFN {
+        background-color: #13092D;
+        border: 1px solid #ffffff;
+        padding: 20px;
+        background-image: url(Images/SiteDecor/Fortnite/TheTree.gif);
+        width: 800px;
+        height: 150px;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+
+        aside {
+            width: 100%;
+        }
+
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
+        </style>
+
+    
